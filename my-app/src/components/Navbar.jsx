@@ -27,6 +27,9 @@ export default function NavBar() {
                 <li><Link to="/"><Button color="inherit">
           home
         </Button></Link></li>
+                <li><Link to="/blog"><Button color="inherit">
+          blog
+        </Button></Link></li>
                 <li><Link to="/sobre"><Button color="inherit">
           sobre
         </Button></Link></li>

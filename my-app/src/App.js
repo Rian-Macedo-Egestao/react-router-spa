@@ -1,23 +1,26 @@
 import React from "react";
-import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
+import './assets/css/base/base.css'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 import Home from "./paginas/Home";
 import About from "./paginas/About";
 import Page404 from "./paginas/Page404";
 import NavBar from "./components/Navbar";
+import Sobre from "./paginas/Sobre";
+import Cabecalho from "./components/Cabecalho";
 
 function App() {
   return (
     <>
     <Router>
-      <NavBar/>
+      <Cabecalho/>
       <Switch>
       <Route exact path="/">
         <Home/>
       </Route>
       
       <Route path="/sobre">
-        <About/>
+        <Sobre/>
       </Route>
       <Route>
         <Page404/>

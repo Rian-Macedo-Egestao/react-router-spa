@@ -22,6 +22,9 @@ function App() {
       <Route path="/sobre">
         <Sobre/>
       </Route>
+      <Route path="/posts/:id">
+        <Sobre/>
+      </Route>
       <Route>
         <Page404/>
       </Route>

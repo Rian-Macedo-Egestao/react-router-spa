@@ -3,7 +3,7 @@
     {
       "id": "bem-estar",
       "nome": "bem-estar",
-      "subcategorias": ["higiene", "saude"]
+      "subcategorias": ["higiene", "saude", "outros"]
     },
     {
       "id": "comportamento",

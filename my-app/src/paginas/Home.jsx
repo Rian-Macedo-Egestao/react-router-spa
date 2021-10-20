@@ -1,4 +1,5 @@
 import React from 'react'
+import ListaCategoria from '../components/ListaCategoria'
 import ListaPost from '../components/ListaPost'
 
 const Home = () => {
@@ -8,9 +9,11 @@ const Home = () => {
       <div className="container">
         <h2 className="titulo-pagina">Pet notícias</h2>
       </div>
-      <section className="container flex flex--centro">
+     
+      <ListaCategoria url={'/categorias'}></ListaCategoria>
+
       <ListaPost url={'/posts'}></ListaPost>
-      </section>
+      
 
     </main>
   )

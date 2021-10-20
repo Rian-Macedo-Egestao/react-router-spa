@@ -18,10 +18,10 @@ const Cabecalho = () => {
         </div>
         <div className="menu-cabecalho">
             <ul className="menu-itens">
-                <li><Link to="/" className="menu-item menu-item--entrar">entrar</Link></li>
-                <li><Link to="/produtos" className="menu-item menu-item">produtos</Link></li>
-                <li><Link to="/" className="menu-item menu-item">blog</Link></li>
-                <li><Link to="/sobre" className="menu-item menu-item">sair</Link></li>
+                <li><Link to="/" className="menu-item menu-item--entrar">Entrar</Link></li>
+                <li><Link to="/produtos" className="menu-item menu-item">Produtos</Link></li>
+                <li><Link to="/" className="menu-item menu-item">Blog</Link></li>
+                <li><Link to="/sobre" className="menu-item menu-item">Sobre</Link></li>
             </ul>
         </div>
     </header>
